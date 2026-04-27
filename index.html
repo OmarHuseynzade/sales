@@ -110,19 +110,7 @@
     display: block;
   }
 
-  /* Photo fallback label (shows when img src is empty/placeholder) */
-  .photo-slot::after {
-    content: '';
-    position: absolute;
-    inset: 0;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 10px;
-    font-weight: 700;
-    letter-spacing: 0.15em;
-    color: var(--muted);
-  }
+  
 
   /* Main number */
   .big-number {
@@ -310,18 +298,6 @@
     height: 100%;
     object-fit: cover;
     display: block;
-  }
-
-  /* Label shown when image is empty */
-  .screenshot-label {
-    font-size: 9px;
-    font-weight: 700;
-    letter-spacing: 0.15em;
-    color: rgba(255,255,255,0.2);
-    text-transform: uppercase;
-    text-align: center;
-    padding: 8px;
-    pointer-events: none;
   }
 
   /* ══════════════════════════════════════════
